@@ -30,7 +30,7 @@ void handler(int signo) {
 					O_RDONLY);
 			if (lockFileDescriptor == -1) {
 				//应用已被卸载
-				LOGI("app has been uninstalled\n");
+				LOGI("app h uninstalled\n");
 			} else {
 				//应用被杀死
 				LOGI("app has been killed\n");
